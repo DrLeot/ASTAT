@@ -8,7 +8,8 @@ plot(mannfrau$groesse.mann, mannfrau$groesse.frau,
      col = "blue",
      pch = 20
 )
-# c)
+# c) lm => Linear Model
 abline(lm(mannfrau$groesse.mann ~ mannfrau$groesse.frau), col="orange")
+# Incercept -> y-achsenabschnitt 
+# zweiter Wert -> Steigung m
 
-# d)

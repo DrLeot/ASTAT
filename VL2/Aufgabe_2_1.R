@@ -32,5 +32,6 @@ var(winner) # varianz
 sd(winner) # Standardabweichung
 
 # h)
- # nope
+var_winner <- sum((winner - mean(winner))^2) / (length(winner)-1)
+sd <- sqrt(var_winner)
 

@@ -8,4 +8,4 @@ hist(geysir[, "Zeitspanne"], breaks = 20)
 hist(geysir[, "Zeitspanne"], breaks = seq(41, 96, by = 11))
 
 # b)
-hist(geysir[, "Eruptionsdauer"])
+hist(geysir[, "Eruptionsdauer"]) # bimodale verteilung
